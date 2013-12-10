@@ -44,7 +44,7 @@ Player.prototype.usePowerUp = function(powerUpData) {
 };
 
 Player.prototype.dead = function() {
-  this.isAlive = false;
+  this.alive = false;
 };
 
 Player.prototype.gameOver = function() {
